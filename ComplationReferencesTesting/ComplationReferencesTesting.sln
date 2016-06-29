@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AD4370CC-7DED-4471-8DC5-F9813721A041}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{08630B26-63DE-4653-A9C3-9BA4BAD061EA}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ComplationReferencesTesting", "src\ComplationReferencesTesting\ComplationReferencesTesting.xproj", "{8BB77616-BFD7-4C24-8AF9-6D10DEA0EAF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BB77616-BFD7-4C24-8AF9-6D10DEA0EAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB77616-BFD7-4C24-8AF9-6D10DEA0EAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB77616-BFD7-4C24-8AF9-6D10DEA0EAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB77616-BFD7-4C24-8AF9-6D10DEA0EAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8BB77616-BFD7-4C24-8AF9-6D10DEA0EAF7} = {AD4370CC-7DED-4471-8DC5-F9813721A041}
+	EndGlobalSection
+EndGlobal
